@@ -130,6 +130,12 @@ public class POM {
 
     @FindBy(id = "Password")
     public WebElement Password;
+
+    @FindBy(css = "[id='customer-delete']")
+    public WebElement delete;
+
+    @FindBy(css = "//div[@class='modal-footer']/button")
+    public WebElement delete2;
 }
 
 
