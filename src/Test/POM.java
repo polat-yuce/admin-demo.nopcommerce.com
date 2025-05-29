@@ -112,6 +112,24 @@ public class POM {
 
     @FindBy(xpath = "(//button[@class='close'])[1]")
     public WebElement kaydedildi;
+
+    @FindBy(id = "SearchEmail")
+    public WebElement SearchEmail;
+
+    @FindBy(id = "SearchFirstName")
+    public WebElement SearchFirstName;
+
+    @FindBy(id = "SearchLastName")
+    public WebElement SearchLastName;
+
+    @FindBy(id = "search-customers")
+    public WebElement searchCustomers;
+
+    @FindBy(xpath = "(//*[text()='Edit'])[3]")
+    public WebElement edit;
+
+    @FindBy(id = "Password")
+    public WebElement Password;
 }
 
 
