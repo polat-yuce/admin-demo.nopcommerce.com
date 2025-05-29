@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.Queue;
+
 public class POM {
 
     public POM() {
@@ -71,5 +73,45 @@ public class POM {
 
     @FindBy(xpath = "//p[text()=' Training']")
     public WebElement Training;
+
+    @FindBy(xpath = "//a[@class='btn btn-primary']")
+    public WebElement addNew;
+
+    @FindBy(xpath = "(//div[@class='col-md-9'])[1]")
+    public WebElement email;
+
+    @FindBy(xpath = "(//div[@class='col-md-9'])[2]")
+    public WebElement password;
+
+    @FindBy(xpath = "(//div[@class='col-md-9'])[3]")
+    public WebElement firstName;
+
+    @FindBy(xpath = "(//div[@class='col-md-9'])[4]")
+    public WebElement lastName;
+
+    @FindBy(id = "Gender_Male")
+    public WebElement male;
+
+    @FindBy(xpath = "(//div[@class='col-md-9'])[6]")
+    public WebElement companyName;
+
+    @FindBy(id = "IsTaxExempt")
+    public WebElement isTaxExempt;
+
+    @FindBy(xpath = "(//div[@class='col-md-9'])[8]")
+    public WebElement newslatter;
+
+    @FindBy(xpath = "//*[text()='Vendor 1']")
+    public WebElement vendor1;
+
+    @FindBy(id = "AdminComment")
+    public WebElement AdminComment;
+
+    @FindBy(css = "[name='save']")
+    public WebElement save;
+
+    @FindBy(xpath = "(//button[@class='close'])[1]")
+    public WebElement kaydedildi;
 }
+
 
