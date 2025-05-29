@@ -136,6 +136,12 @@ public class POM {
 
     @FindBy(css = "//div[@class='modal-footer']/button")
     public WebElement delete2;
+
+    @FindBy(css = "[placeholder='Search']")
+    public WebElement search;
+
+    @FindBy(css = "[id='user-selection']")
+    public WebElement sales1;
 }
 
 
