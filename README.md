@@ -76,10 +76,7 @@ Bu proje, **nopCommerce Admin Paneli** üzerinde temel test senaryolarının **S
 - Selenium WebDriver  
 - TestNG  
 - Maven  
-- Parallel Test Execution (via XML configuration)  
-- Cross-browser testing (Chrome, Firefox)
 
----
 
-## 📂 Proje Yapısı
+
 
